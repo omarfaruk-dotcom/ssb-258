@@ -1,0 +1,63 @@
+
+body{
+    background-color: rgb(189, 245, 226);
+    margin-top: 10%;
+}
+footer {
+    background-color: #ffefef;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.frame{
+    text-align: center;
+}
+.clear_div{
+    clear: both;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.logo{
+    margin-left: 60%;
+}
+.login{    
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 8%;
+    width: 100;
+}
+form{
+    background-color: rgb(189, 245, 226);
+    width: 100;
+    border-radius: 10px;
+}
+input{
+    text-align: center;
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+    width: 90%;
+    height: 10%;
+}
+button{
+    border-radius: 5px;
+    width: 80%;
+    height: auto;
+    border:none;
+    text-decoration: underline;
+}
+.signin{
+    background-color: rgb(182, 149, 213);
+    
+}
+.container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: 1fr 1fr; /* Split the container into two equal columns */
+    gap: 5%; /* Add some gap between the logo and login form */
+  }
+  
